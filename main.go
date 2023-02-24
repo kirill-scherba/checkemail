@@ -59,7 +59,7 @@ func ValidateMX(email string) error {
 	return nil
 }
 
-// ValidateHost validate mail host. This function checks emails hosts mx record 
+// ValidateHost validate mail host. This function checks emails hosts mx record
 // and try connect to smtp server with timeout.
 func ValidateHost(email string) (err error) {
 	_, host := splitEmail(email)
@@ -79,8 +79,9 @@ func ValidateHost(email string) (err error) {
 }
 
 // ValidateUser validate mail host and user.
-// If host is valid, requires valid SMTP [1] serverHostName and serverMailAddress to reverse validation
-// for prevent SPAN and BOTS.
+// If host is valid, requires valid SMTP [1] serverHostName and
+// serverMailAddress to reverse validation for prevent SPAN and BOTS.
+//
 // [1] https://mxtoolbox.com/SuperTool.aspx
 func ValidateUser(serverHostName, serverMailAddress, email string) (err error) {
 	_, host := splitEmail(email)
