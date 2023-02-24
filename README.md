@@ -2,8 +2,8 @@
 
 There is golang package to Validate email address syntax, check email domain, check smtp and that mail user exists.
 
-[![GoDoc](https://godoc.org/github.com/kirill-scherba/checkrmail?status.svg)](https://godoc.org/github.com/kirill-scherba/checkrmail/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kirill-scherba/checkrmail)](https://goreportcard.com/report/github.com/kirill-scherba/checkrmail)
+[![GoDoc](https://godoc.org/github.com/kirill-scherba/checkemail?status.svg)](https://godoc.org/github.com/kirill-scherba/checkemail/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kirill-scherba/checkemail)](https://goreportcard.com/report/github.com/kirill-scherba/checkemail)
 
 ## Basic usage example
 
